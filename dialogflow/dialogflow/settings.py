@@ -124,5 +124,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# habilitar collectstatic 
-#heroku config:unset DISABLE_COLLECTSTATIC
+django_heroku.settings(locals())
