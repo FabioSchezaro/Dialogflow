@@ -26,7 +26,7 @@ SECRET_KEY = 'ai9o4!9xqp*0q#qx*dn@8r0ibapz8i_@y9knnc9!!^@nqj(e1r'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '5a2b8352.ngrok.io',
+    '5da30148.ngrok.io',
     'localhost',
     's-vitais.herokuapp.com'
 ]
@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	'herokuapp',
 ]
 
 MIDDLEWARE = [
